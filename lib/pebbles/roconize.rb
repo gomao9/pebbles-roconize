@@ -1,7 +1,21 @@
+# -*- coding : utf-8 -*-
 require "pebbles/roconize/version"
 
 module Pebbles
   module Roconize
-    # Your code goes here...
+    def roconized?
+      @roconized || false
+    end
+
+    def roconize
+      @roconized = true
+    end
+
+    def deroconize
+      @roconized = false
+    end
   end
 end
+
+Object.send(:include, Pebbles::Roconize)
+

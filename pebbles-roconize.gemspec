@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Pebbles::Roconize::VERSION
   spec.authors       = ["gomao9"]
   spec.email         = ["gomaoq@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Roconize all objects in the world.}
+  #spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.homepage      = "https://github.com/gomao9/pebbles-roconize"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
